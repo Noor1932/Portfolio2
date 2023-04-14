@@ -72,7 +72,7 @@ header{
 }
 
 .aboutme{
-    font-size:30px;
+    font-size:20px;
     width:50%;
     white-space: space pre;
 }
@@ -97,7 +97,7 @@ hr{
     display: inline-block;
     justify-content: center;
     align-items: center;
-    text-decoration: underline black;
+    text-decoration: underline ;
     
 
 }
@@ -109,8 +109,11 @@ float:right;
 
 
 .projectTitle{
-    background-color:#edf2f4;
-    color:black;
+    position: ;
+    color:white;
+    background-color:#023047;
+
+    
    
    
 }
@@ -160,14 +163,25 @@ float:right;
 
 
 .BLink{
+    cursor: pointer;
+    color:black;
+    background-color: white;;
     padding:10px;
     width:250px;
+    border-radius:5px;
 }
+
+.BLink:hover{
+    color:white;
+    background-color: black;
+}
+
+
 .imgsize{
     float: right;
     width:40%;
     justify-content: flex-end;
- align-content: space-around;
+    align-content: space-around;
 }
 
 .depart{
@@ -232,7 +246,9 @@ align-items: center;
 
 }
 .footerbutton{
- 
+    position: absolute;
+    left: 70%;
+    margin-top:35px;
     padding:20px;
     width:200px;
     border-color: white;
@@ -240,6 +256,11 @@ align-items: center;
     color:white;
     border-radius:5px;
     
+}
+
+.footerbutton:hover{
+color:#001d3d;
+background-color: white;
 }
 
 
