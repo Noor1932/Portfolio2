@@ -24,6 +24,7 @@ li a{
     font-weight:500;
     text-decoration: none;
     margin-right:30px;
+   
 
 
 }
@@ -109,9 +110,9 @@ float:right;
 
 
 .projectTitle{
-    position: ;
-    color:white;
-    background-color:#023047;
+    
+    color:black;
+    background-color:#e5e5e5;
 
     
    
@@ -142,13 +143,22 @@ float:right;
 }
 
 .doe{
-    display:flex;
+  
     display:inline-block;
     justify-content: center;
     align-content: space-between;
     margin:30px; 
 }
 
+.imgDoe{
+    displa
+}
+
+
+.project2{
+    display:flex;
+    justify-content: flex-start;
+}
 
 
 .AppTitle{
@@ -168,6 +178,7 @@ float:right;
     background-color: white;;
     padding:10px;
     width:250px;
+    border-color:black;
     border-radius:5px;
 }
 
@@ -255,12 +266,26 @@ align-items: center;
     background-color: #001d3d;
     color:white;
     border-radius:5px;
+    cursor: pointer;
     
 }
 
 .footerbutton:hover{
 color:#001d3d;
 background-color: white;
+
+}
+
+
+.col-container:after{
+        content: "";
+        display: table;
+        clear: both;
+      }
+.projectInfo{
+    float:left;
+    width: 66.66666%;
+  padding: 25px;
 }
 
 
