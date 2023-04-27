@@ -3,9 +3,12 @@
 <title>Portfolio</title>
 
 <link rel="stylesheet" type="text/css" href="styles.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 
 <body>
     <header>
+
         <img class="logo" src="images/logo.png">
 
         <nav>
@@ -84,7 +87,7 @@
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati repellat reiciendis cumque inventore.
                 Voluptates, a suscipit ipsa vero maxime, sit tempora quasi ducimus qui facere dolorem animi aspernatur
                 voluptatum similique!</p>
-            <button class="BLink" type="button">View Full Project</button>
+            <button class="BLink" id="Hlink" type="button">View Full Project</button>
         </div>
 
         <div class="doe">
@@ -96,38 +99,24 @@
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati repellat reiciendis cumque inventore.
                 Voluptates, a suscipit ipsa vero maxime, sit tempora quasi ducimus qui facere dolorem animi aspernatur
                 voluptatum similique!</p>
-            <button class="BLink" type="button">View Full Project</button>
+            <button class="BLink" id="Dlink" type="button">View Full Project</button>
         </div>
-
-
-
-
-
 
     </main>
 
-    <div class="input_container">
-        <form name="formValidation" id="formValidation" action="valid.html">
-            <div class="input-row">
-                <input type="text" name="name" placeholder="Name" required>
-            </div>
-            <div class="input-row">
-                <input type="email" name="email" placeholder="Email" required>
-            </div>
-            <div class="input-row">
-                <input type="text" name="phone" placeholder="Phone" required>
-            </div>
-            <div class="input-row">
-                <input type="text" name="subject" placeholder="Subject" required>
-            </div>
-            <div class="input-row">
-                <textarea placeholder="Message" name="formMessage" required></textarea>
-            </div>
-            <div class="text-center">
-                <input type="submit" value="Submit" required>
-            </div>
 
-        </form>
+    <!-- Jquery -->
+    <div class="model-container">
+        <div class="model">
+            <i class="fa-duotone fa-circle-three-quarters-stroke"></i>
+            <h3>Full Project</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati repellat reiciendis cumque inventore.
+                Voluptates</p>
+            <button class="model-button">Project</button>
+            <button class="model-button">Prototype</button>
+            <i id="close" class="fas fa-times"></i>
+
+        </div>
     </div>
 
 
@@ -139,7 +128,7 @@
                     <img src="images/dribbbleedited.png" class="footerimg">
                     <img src="images/linkedinedited.png" class="footerimg">
                     <img src="images/behanceedited.png" class="footerimg">
-                    
+
                 </div>
 
                 <div><button id="footerbutton">Let's talk</button></div>
@@ -152,11 +141,15 @@
 
         </div>
 
-       
+
 
     </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="jquery-3.6.4.min.js" type="text/javascript"></script>
+    <script src="script.js"></script>
 
-    <script type="text/javascript" src="js/custom.js"></script>
 
 
 
